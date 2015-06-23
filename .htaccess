@@ -1,0 +1,50 @@
+#usunac to zabespieczenie
+
+#AuthName "Restricted Area"
+#AuthType Basic
+#AuthUserFile /var/www/.htpasswd
+#AuthGroupFile /dev/null
+#require valid-user
+
+#usunac to !
+
+
+
+
+
+Options -Indexes
+DirectoryIndex index.php
+
+ErrorDocument 400 /error/400
+ErrorDocument 401 /error/401
+ErrorDocument 403 /error/403
+ErrorDocument 404 %{REQUEST_URI}/error/404
+ErrorDocument 405 /error/405
+ErrorDocument 406 /error/406
+ErrorDocument 409 /error/409
+ErrorDocument 413 /error/413
+ErrorDocument 414 /error/414
+#ErrorDocument 443 /error/443
+ErrorDocument 500 /error/500
+ErrorDocument 501 /error/501
+
+
+ 
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+
+
+<Files *.php>
+Order Deny,Allow
+Deny from all
+Allow from 127.0.0.1
+</Files>
+
+<Files index.php>
+Order Allow,Deny
+Allow from all
+</Files>

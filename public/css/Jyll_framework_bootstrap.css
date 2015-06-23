@@ -1,0 +1,312 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-03-22, 14:31:49
+    Author     : JyllFramework
+*/
+
+
+*{
+    margin:0 auto;
+}
+.infobar{
+    background-image: -webkit-linear-gradient(top, #37465d, #41536e);
+    background-image: -moz-linear-gradient(top, #37465d, #41536e);
+    background-image: -o-linear-gradient(top, #37465d, #41536e);
+    background-image: -ms-linear-gradient(top, #37465d, #41536e);
+    background-image: linear-gradient(to bottom, #37465d, #41536e);
+    width: 1188px;
+    /*height: 50px;*/
+    float:left;
+}
+.infobar_p{            
+    font-family: Scheherazade;
+    font-size: 23px;
+    color: #f2f2f2;
+    float:right;
+    margin-bottom: 10px;
+}
+.infobar_p p{ 
+    float:left;
+    margin-top: 8px;
+    margin-right: 20px;
+    display: inline;
+}
+.infobar_p img{ 
+    float:left;
+    margin-top: 12px;
+    margin-right: 8px;
+    margin-left: 20px;
+}
+.secound_heder{
+    background-color: #f2f2f2;
+    width: 1188px;
+    /*height: 70px;*/
+    float:left;
+}
+.logo{
+    width: 119px;
+    /*height: auto;*/
+    margin-left: 27px;
+    margin-top:14px;
+    margin-bottom: 14px;
+    float:left;
+}
+nav{
+    font-family: Cambay;
+    font-size: 17px;
+    color: #3c4a12;
+    float:right;
+    margin-right: 20px;
+}
+nav a{
+    margin-left: 19px;
+    margin-top: 27px;
+    float:left;
+    text-transform: uppercase;
+}
+nav a:link{
+    text-decoration: none;
+    color: #3c4a12;
+}
+nav a:hover{
+    margin-bottom: 10px;
+    border-bottom: 2px solid #9dc02e;
+    border-collapse:separate;
+    border-spacing:13px;
+    padding-bottom: 13px;
+    transition: all 0.5s ease;
+}
+hr{
+    width: 100%;
+    /*height: 2px;*/
+    background-color: #051a37;
+    border:0;
+    float:left;
+}
+
+
+.options_one a{
+    width: 100%;
+    float:left;
+}
+.options_two a{
+    width: 100%;
+    float:left;
+    text-decoration: none;
+    color: rgba(242, 235, 238, 1);
+}
+.options_three a{
+    width: 100%;
+    float:left;
+}
+.options_one{
+    width: 1188px;
+    background: #f2f2f2;
+    float:left;
+
+}
+.options_two{
+    width: 1188px;
+    background: #37465d;
+    float:left;
+    color: rgba(242, 235, 238, 1);
+
+}
+.options_three{
+    width: 1188px;
+    background: #afbd51;
+    float:left;
+
+}
+.border8x{
+    border: solid 1px #c7c7c7;
+    width: 564px;
+    float: left;
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.border5x{
+    border: solid 1px #c7c7c7;
+    width: 345px;
+    float: left;
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.border11x{
+    border: solid 1px #c7c7c7;
+    width: 783px;
+    float: left;
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.border3x{
+    border: solid 1px #c7c7c7;
+    width: 198px;
+    float: left;
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.border4x{
+    border: solid 1px #c7c7c7;
+    width: 265px;
+    float: left;
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.border13x{
+    border: solid 1px #c7c7c7;
+    width: 929px;
+    float: left;
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.noborder8x{
+
+    width: 564px;
+    float: left;
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.noborder4x{
+
+    width: 265px;
+    float: left;
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.noborder5x{
+
+    width: 345px;
+    float: left;
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.noborder11x{
+
+    width: 783px;
+    float: left;
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.noborder3x{
+
+    width: 198px;
+    float: left;
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.noborder13x{
+
+    width: 929px;
+    float: left;
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.button_blueblack, .button_green, .button_white{
+    width: 130px;
+    height: 47px;
+    border: 1px solid #03142b; /* stroke */
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    -moz-box-shadow: inset 0 -3px 3px rgba(27,35,46,1);
+    -webkit-box-shadow: inset 0 -3px 3px rgba(27,35,46,1);
+    box-shadow: inset 0 -3px 3px rgba(27,35,46,1);
+    margin: 2px;
+}
+
+.button_white{
+    background-color: #f2f2f2; /* layer fill content */
+}
+
+.button_green{
+    background-color: #aebc51; /* layer fill content */
+}
+
+.button_blueblack{
+    background-color: #36465d; /* layer fill content */
+}
+.button_blueblack:active, .button_green:active, .button_white:active{
+    -webkit-box-shadow: inset 1px 4px 4px 2px rgba(36,44,59,1);
+    -moz-box-shadow: inset 1px 4px 4px 2px rgba(36,44,59,1);
+    box-shadow: inset 1px 4px 4px 2px rgba(36,44,59,1);
+}
+.shape-6 {
+    width: 418px;
+    height: 184px;
+    background-color: #df6951;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #df6951;
+    -moz-box-shadow: 3px 4px 5px rgba(0,0,0,.75);
+    -webkit-box-shadow: 3px 4px 5px rgba(0,0,0,.75);
+    box-shadow: 3px 4px 5px rgba(0,0,0,.75);
+    float: left;
+}
+
+
+.slides{
+    float:left;
+    width: 1188px;
+    height: auto;
+
+}
+.slide_img{
+    width: 1188px;
+    height: auto;
+    float:left;    
+}
+.slide_object{
+    /*position: absolute;*/
+    float:left;
+    width: 30%;
+    margin-top: -30px;
+    margin-left: 273px;
+
+}
+.slide_other, .slide_select{
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.slide_select {
+    background-color: #041a36;
+}
+.slide_other {
+    background-color: #f2f2f2;
+}
